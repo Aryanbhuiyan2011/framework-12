@@ -1,0 +1,465 @@
+*{
+  box-sizing: border-color-box;
+  margin: 0;
+  padding:0;
+ }
+
+ body{
+  color:#e2e8e4;
+  background-color:#121614;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  padding:30px;
+ }
+
+ h1,h2,h3 {
+  margin-bottom: 15px;
+  color:#a3c1ad;
+ }
+
+ p, li{
+  margin-bottom: 15px;
+  color:#d0d8d2;
+  font-size: 15px;
+ }
+
+ ul, ol{
+  padding-left: 25px;
+  margin-bottom: 15px;
+ }
+
+ strong{
+  color: b5d4c1;
+ }
+
+ .hero banner{
+  max-width:800px;
+  margin:0 auto 30px auto;
+  padding:40px;
+  background-color:#4a7c59;
+  color:white;
+  border-radius:12px;
+  text-align:center;
+ }
+
+ .hero-banner h1{
+  color:white;
+  font-size: 28px;
+ }
+
+.hero-banner p {
+  color:#e8f0ec;
+  font-size:16px;
+}
+
+.faq-selection {
+  max-width:800px;
+  margin: 0 auto;
+}
+
+.faq-selection h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.accordian-item {
+  background-color: white;
+  border: 1px solid #d4ddd4;
+  border-radius:8px;
+  margin-bottom: 10px;
+  overflow:hidden;
+}
+
+.accordian-header{
+  width:100%;
+  padding:15px 20px;
+  background: none;
+  border: none;
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  font-size: 18px;
+  font-weight:bold;
+  cursor: pointer;
+  text-align:left;
+}
+
+.accordian-header .icon {
+  font-size: 18px;
+  color:#4a7c59;
+}
+
+.accordian-content{
+  max-height:0;
+  overflow:hidden;
+  padding:0 20px;
+  transition:max-height 0.3s ease, padding 0.3s ease;
+}
+
+.accordian-item.active .accordian-content{
+  padding:0 20px 15px 20px;
+}
+
+:root {
+    --bg-primary:#121614;
+    --bg-card:#1b2420;
+    --bg-hover:#232e29;
+    --text-main:#e2e8e4;
+    --text-muted:#889990;
+    --accent-green:#a3c1ad;
+    --accent-bright:#b5d4c1;
+    --border-color:#2b3833;
+}
+
+::selection{
+    background-color: var(--accent-green);
+    color:var(--bg-primary);
+}
+
+ul.resource-links{
+    background-color: #1b2420;
+    border:1px solid #2b3833;
+    border-radius:8px;
+    padding:25px 35px;
+    margin-bottom:25px;
+    list-style-type:square;
+}
+
+ul.resource-links li {
+    margin-bottom: 10px;
+    color: #889990;
+}
+
+ul.resource-links a{
+    color: #a3c1ad;
+    text-decoration: none;
+}
+
+ul.resource-links a:hover{
+text-decoration:underline;
+}
+
+
+
+ul.thermal-highlights{
+    background-color:#1b2420;
+    border:1px solid #2b3833;
+    border-radius:8px;
+    padding:22px 32px;
+    margin-bottom:25px; 
+}
+
+ul.thermal-highlights li{
+    color: #e2e8e4;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 12px;
+    position: relative;
+}
+
+ul.thermal-highlights li:last-child {
+    margin-bottom: 0;
+}
+
+p.thermal-summary{
+    background-color:#1b2420;
+    border:1px solid #2b3833;
+    border-top:3px solid #a3c1ad;
+    border-radius:0 0 8px 8px;
+    padding:20px;
+    color: #889990;
+    font-size: 14px;
+    line-height: 1.65;
+    margin-bottom: 25px;
+}
+
+ul.fan-modes {
+    background-color: #1b2420;
+    border: 1px solid #2b3833;
+    border-radius:8px;
+    padding: 20 px 30 px;
+    margin-bottom: 30px;
+    list-style-type:square;
+}
+
+ul.fan-modes li {
+    color: #889990;
+    font-size:14px;
+    line-height:1.6;
+    margin-bottom:10px;
+}
+
+ul.fan-modes li:last child{
+    margin-bottom: 0;
+}
+
+ul.fan-modes strong{
+    color: #a3c1ad;
+}
+
+ul.display-specs {
+    background-color:#1b2420; 
+    border:1px solid #2b3833;
+    border-radius:8px;
+    padding: 22px 32px;
+    margin-bottom: 25px;
+
+}
+
+ul.display-specs li{
+    color: #e2e8e4;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+ul.display-specs li:last-child{
+    margin-bottom:0;
+}
+
+p.display-notes{
+    background-color:#1b2420;
+    border: 1px solid #2b3833;
+    border-left: 4 px solid #a3c1ad;
+    border-radius: 0 8px 8px 0;
+    padding: 20px;
+    color: #889990;
+    font-size: 14px;
+    line-height: 1.65;
+    margin-bottom: 25px;
+}
+
+ul.display-power{
+    background-color:#1b2420;
+    border: 1px solid #2b3833;
+    border-radius: 8px;
+    padding: 20px 30px;
+    margin-bottom: 30px;
+    list-style-type: circle;
+}
+
+ul.display-power li:last-child {
+    margin-bottom:0;
+    
+}
+
+ul.display-power strong{
+    color: #a3c1ad;
+}
+
+ul.audio-specs{
+    background-color: #1b2420;
+    border: 1px solid #2b3833;
+    border-radius:8px;
+    padding: 22px 32px;
+    margin-bottom: 25px;
+}
+
+ul.audio-specs li{
+    color: #e2e8e4;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+ul.audio-specs li:last-child{
+    margin-bottom:0;
+}
+
+p.audio-notes{
+    background-color: #1b2420;
+    border: 1px solid #2b3833;
+    border-right: 4px solid #a3c1ad;
+    border-radius:8px 0 0 8px;
+    padding: 20px;
+    color: #889990;
+    font-size: 14px;
+    line-height: 1.65;
+    margin-bottom: 30px;
+}
+
+ul.security-features {
+    background-color: #1b2420;
+    border: 1px solid #2b3833;
+    border-radius: 8px;
+    padding: 20px 30px;
+    margin-bottom: 25px;
+}
+
+ul.security-features li{
+    color: #e2e8e4;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+ul.security-features li:last-child {
+    margin-bottom: 0;
+}
+
+ul.network-specs {
+    background-color: #1b2420;
+    border: 1px solid #2b3833;
+    border-radius: 8px;
+    padding: 22px 32px;
+    margin-bottom: 25px;
+}
+
+ul.network-specs li {
+    color: #e2e8e4;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+ul.network-specs li:last-child{
+    margin-bottom: 0;
+}
+
+p.network-notes{
+    background-color: #1b2420;
+    border: 1px  solid #2b3833;
+    border-bottom: 3px solid #a3c1ad;
+    border-radius: 8px;
+    padding: 20px;
+    color: #889990;
+    font-size: 14px;
+    line-height: 1.65;
+    margin-bottom: 25px;
+}
+
+ul.network-targets{
+    background-color: #1b2420;
+    border: 1px solid #2b3833;
+    border-radius: 8px;
+    padding: 20px 30px;
+    margin-bottom: 30px;
+    list-style-type: square;
+}
+
+ul.network-targets li{
+    color: #889990;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+ul.network-targets li:last-childd{
+    margin-bottom: 0;
+}
+
+::-webkit-scrollbar {
+    width:10px;
+}
+
+::-webkit-scrollbar-track {
+    background:#121614;
+    border-left:1px solid #2b3833;
+}
+
+::-webkit-scrollbar-thumb {
+    background:#2b3833;
+    border-radius:5px;
+    border:2px solid #121614;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background:#a3c1ad;
+}
+
+::selection {
+    background-color: #a3c1ad;
+    color: #121614;
+}
+
+ul.feature-checklist li,
+ul.power-list li,
+ul.keyboard-specs li,
+ul.thermal-highlights li,
+ul.display-specs li,
+ul.audio-specs li,
+ul.network-specs li,
+ul.security-features li{
+    transition: transform 0.25s ease, color 0.25s ease, padding-left 0.25s ease; cursor:default;
+}
+
+ul.feature-checklist li:hover,
+ul.power-list li:hover,
+ul.keyboard-specs li:hover,
+ul.thermal-highlights li:hover,
+ul.display-specs li:hover,
+ul.audio-specs li:hover,
+ul.network-specs li:hover,
+ul.security-features li:hover {
+    color: #ffffff;
+    padding-left: 6px;
+    border-left:2px solid #a3c1ad;
+}
+
+.changelog-entry,
+.community-box,
+p.dev-note,
+p.thermal-summary,
+p.display-notes,
+p.audio-notes,
+p.network-notes,
+ul.specs-definition-list,
+ul.feature-checklist,
+ul.power-list,
+ul.keyboard-specs,
+ul.thermal-highlights,
+ul.display-specs,
+ul.audio-specs,
+ul.network-specs,
+ul.security-features {
+    transition: border-color 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.changelog-entry:hover,
+.community-box:hover,
+p.dev-note:hover,
+p.thermal-summary:hover,
+p.display-notes:hover,
+p.audio-notes:hover,
+p.network-notes:hover,
+ul.specs-definition-list:hover,
+ul.feature-checklist:hover,
+ul.power-list:hover,
+ul.keyboard-specs:hover,
+ul.thermal-hightlights:hover,
+ul.display-specs:hover,
+ul.audio-specs:hover,
+ul.network-specs:hover,
+ul.security-features:hover {
+    border-color:#a3c1ad;
+    background-color: #1f2b25;
+    box-shadow:0 4px 20px rgba(0,0,0,0.35);
+}
+
+h2{
+    transition: color 0.2s ease, letter-spacing 0.2s ease;
+}
+
+h2:hover {
+    color: #ffffff;
+    letter-spacing:0.5px;
+}
+
+.accent-glow {
+    text-shadow: 0 0 10px rgba(163,193,173,0.4);
+}
+
+.border-highlight-top {
+    border-top:2px dashed #2b3833;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.border-highlight-bottom {
+    border-bottom: 2px dashed #2b3833;
+    padding-bottom:20px;
+    margin-bottom: 20px;
+}
+
+
+

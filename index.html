@@ -1,110 +1,8 @@
 <html lang="en">
 <head>
+<link rel="stylesheet" href="style.css">
 <meta charset="UTF-8">
 <title> Framework 12 Laptop Journey</title>
-<style>
- *{
-  box-sizing: border-color-box;
-  margin: 0;
-  padding:0;
- }
-
- body{
-  color:#e2e8e4;
-  background-color:#121614;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.6;
-  padding:30px;
- }
-
- h1,h2,h3 {
-  margin-bottom: 15px;
-  color:#a3c1ad;
- }
-
- p, li{
-  margin-bottom: 15px;
-  color:#d0d8d2;
-  font-size: 15px;
- }
-
- ul, ol{
-  padding-left: 25px;
-  margin-bottom: 15px;
- }
-
- strong{
-  color: b5d4c1;
- }
-
- .hero banner{
-  max-width:800px;
-  margin:0 auto 30px auto;
-  padding:40px;
-  background-color:#4a7c59;
-  color:white;
-  border-radius:12px;
-  text-align:center;
- }
-
- .hero-banner h1{
-  color:white;
-  font-size: 28px;
- }
-
-.hero-banner p {
-  color:#e8f0ec;
-  font-size:16px;
-}
-
-.faq-selection {
-  max-width:800px;
-  margin: 0 auto;
-}
-
-.faq-selection h2 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.accordian-item {
-  background-color: white;
-  border: 1px solid #d4ddd4;
-  border-radius:8px;
-  margin-bottom: 10px;
-  overflow:hidden;
-}
-
-.accordian-header{
-  width:100%;
-  padding:15px 20px;
-  background: none;
-  border: none;
-  display:flex;
-  justify-content: space-between;
-  align-items:center;
-  font-size: 18px;
-  font-weight:bold;
-  cursor: pointer;
-  text-align:left;
-}
-
-.accordian-header .icon {
-  font-size: 18px;
-  color:#4a7c59;
-}
-
-.accordian-content{
-  max-height:0;
-  overflow:hidden;
-  padding:0 20px;
-  transition:max-height 0.3s ease, padding 0.3s ease;
-}
-
-.accordian-item.active .accordian-content{
-  padding:0 20px 15px 20px;
-}
-</style>
 </head>
 <body>
 <h1>The Framework 12 Laptop</h1>
@@ -159,6 +57,96 @@
 <h2>Built for the planet</h2>
 <p>Traditional laptops are designed to be thrown away when a part breaks, The framework 12 lets you upgrade individual components instead of buying a whole new machine, drastically cutting down on electric waste and helping out the earth at the same time with being eco-friendly</p>
 
+<h2>Power and Battery Efficiency</h2>
+<p>Details on expected battery runtime and power management</p>
+
+<ul class="power-list">
+  <li>Battery Capacity: 61Wh high-density lithium-ion cell</li>
+  <li>Charging support: Up to 100W USB-C Power Delivery fast charging</li>
+  <li>Sleep Drain: Optimized low-power standy mode so you don't get drained from being idle</li>
+  <li>Efficiency: Hardware-level power states managed via open source firmware</li>
+</ul>
+
+<h2>Thermal Management and Cooling Architecture</h2>
+<p>A breakdown of the custom thermal subsystem designed to maintain maximum performance under sustained workloads</p>
+<ul class="thermal-hightlights">
+<li>Dual Heatpipe Design: High-purity sintered copper heatpipes rapidly pull thermal energy directly away from the CPU die</li>
+<li>Fluid Dynamic Bearing Fan: Ultra-quiet 75mm blower fan engineered for high static pressure with minimal acoustic resonance</li>
+<li>Custom Vapor Chamber Option: Optional liquid-vapor phase transition chamber for high-wattage sustained performance modes</li>
+<li>Exhaust Vent Geometry: Precisioned rear intake and exhaust grilles maximize volumetric airflow while preventing recirculation</li>
+<li>Thermal Interface Material: Factory-applied phase-change thermal pad ensures long-term conductivity without pump-out degradation</li>
+</ul>
+
+<h2>Fan Speed Control Modes</h2>
+<p>Shows what the modes do</p>
+
+<ul class="fan modes">
+  <li>Silent mode: The fan turns off completely during light web browsing and text editing for zero noise, completely</li>
+  <li>Balanced mode: Dynamically ramps fan speed based on live internal temperature sensors to maintain quiet, steady cooling</li>
+  <li>Performance mode: Maximizes fan RPM to unlock full cpu power delivery during heavy compilation tasks</li>
+</ul>
+
+<h2>Display Panel and Visual Technology</h2>
+<p>Comprehesive specifications for the custom 12-inch high-resolution displasy assembly</p>
+
+<ul class="display-specs">
+  <li>Screen size and Ratio: 12.0 inch diagonal panel with a productivity-focused 3:2 aspect ratio for extra vertical coding space</li>
+  <li>Native Resolution: 2256 x 1504 pixels delivering sharp text rendering and high pixel density</li>
+  <li>Collor Accuracy: 100% sRGB color gamut coverage tuned for precise UI design and photo editing</li>
+  <li>Peak Brightness: 400 nits anti-glare matte panel for comfortable indoor and outdoor viewing</li>
+  <li>Minge Mechanism: 180-degree lay-flat smooth torque hinge reinforced with durable aluminum brackets</li>
+</ul>
+
+<h2>Display Maintenance and Protection</h2>
+<p class="display-notes">
+  The glass cover andd inner bezel assembly are designed rapid field replacement, standard captive screws secure the panel brackets to the top chassis, ensuring that a cracked or damaged screen can be swapped out in under ten minutes using  basic hand tools
+</p>
+<ul class="display-power">
+  <li>Panel Self-Refresh: Reduces GPU power draw by refreshing static code screens directly from display memory</li>
+  <li>Ambient Light Sensing: Automatically adjusts backlight intensity based on room lightning to optimize battery life</li>
+  <li>Low-Power Backlight: High-efficiency LEDs cut display power consumption by up to 20% at normal working brightness</li>
+</ul>
+
+<h2>Audio Subsystem and Microphone Array</h2>
+<p>Technical details regarding the integrated speakers, spatial sound and voice pickup setup</p>
+
+<ul class="audio-specs">
+  <li>Dual Stereo Speakers: Side-firing 2w speakers tuned for clear vocal clarity and balanced acoustic performance</li>
+  <li>Hardware Mute Switches: Physical privacy switches wired directly to the camera and microphone power lines</li>
+  <li>Dual-Mic Array: Noise-canceling beamforming microphones built into the top display bezel for clear call quality</li>
+  <li>Headphone Jack: Standard 3.5mm combo audio jack backed by a high efficiency DAC for clean audio output</li>
+  <li>Speaker Enclosures: Custom molded speaker chambers designed to prevent chassis vibration at high volumes</li>
+</ul>
+
+<h2>Wireless Connectivity and Network Architecture</h2>
+<p>Technical details regarding wireless connectivity, antenna placement and expansion card networking</p>
+
+<ul class="network-specs">
+  <li>Wifi 6e Module: Tri-band wireless adapter operating across 2.4ghz, 5ghz and 6hz goes for high through coding and large git pulls</li>
+  <li>Bluetooth 5.2: Ultra-low power bluetooth radio supporting multi device pairing for wireless mice, keyboards and audio peripherals</li>
+  <li>Swappable M.2 2230 Wifi card: Non-soldered wireless card allowing complete full upgrades to future Wifi 7 or just cellular modems</li>
+  <li>Optimal Antenna Placement: High-gain patch antennas routed through the top lip of the display housing to minimize chassis signal</li>
+  <li>Ethernet Expansion Card Option: Optional RJ45 Gigabit ethernet expansion card module for high-reliability wired network testing</li>
+
+  <h2>Network security and Firmware Transparency</h2>
+  <p class="network-notes">
+    The wireless subsystem features dedicated hardware-level power isolation through the BIOS, users can toggle wireless interfaces off completely without needing software-level operating system drivers or third party utilities
+  </p>
+  <ul class="security-features">
+    <li>Hardware Radio Kill Switch: Instant physical Isolation via firmware level toggles without relying on OS drivers.</li>
+    <li>Open Firmware Auditing: Transparent bootloader code allows independant security reviews and custom flashing.</li>
+    <li>MAC Address Randomization: Optional system-level privacy feature preventing constant tracking on public wifi networks.</li>
+    <li>Encrypted Key Storage: Dedicated secure chip protecting the wifi passwords and SSH authentication keys</li>
+
+  </ul>
+
+  <h2>Bandwith performance targets</h2>
+  <ul class="network-targets">
+    <li>Peak wifi speed: Up to 2.4 Gbps physical layer rates on clear 6ghz channels</li>
+    <li>Latency optimization: Packet prioritization modes made specific for low-latency terminal SSH connections and remote server management</li>
+    <li>Power efficiency: Target wake time protocols to reduce wireless idle power consumption by preserving battery when idle</li>
+  </ul>
+
 
  <h2>Community and Marketplace Ecosystem</h2>
 <p>Framework supports a great ecosystem where users can buy, trade and reuse components to easily save money</p>
@@ -202,6 +190,14 @@
 <h2>Support system for Framework</h2>
 <p>Well for support they have many options, that includes the official discord server, the reddit, however they do also have a formal ticketing system where you can open direct 1 on 1 support requests with Framework hardware engineers which is very cool, for warranty replacements or persistent hardware faults which could also be very useful. They also have community moderators and Linux enthusiasts to maintain distro specific threads for Kernel updates, power management dimensions or even touchscreen gesture support, overall Framework has loads of supports options designed specifically for you, many.</p>
 
+<h2>Project Resources and Links</h2>
+<p>External sites and references related to this build</p>
+
+<ul class="resource-links">
+<li><a href="https://frame.work" target="_blank">Official Framework Website</a></li>
+<li><a href="https://hackclub.com" target="_blank">Hack Club Community</a></li>
+<li><a href="https://github.com" target="_blank">Github Version Control</a></li>
+</ul>
 
 </body>
 </html>
