@@ -897,3 +897,74 @@ figcaption{
 }
 
 
+::selection{
+    background-color:#a3c1ad;
+    color:#121614
+}
+
+::-moz-selection{
+    background-color:#a3c1ad;
+    color:#121614;
+}
+
+::-webkit-scrollbar{
+    width:10px;
+}
+
+::-webkit-scrollbar-track{
+    background:#121614;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background:#a3c1ad;
+}
+
+.content-box, .laptop-card, .spec-card{
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.content-box:hover, .laptop-card:hover, .spec-card:hover{
+    transform:translateY(-3px);
+    border-color:#a3c1ad;
+    box-shadow:0 8px 20px rgba(163, 193, 173, 0.08);
+}
+
+.glow-title{
+    color:#a3c1ad;
+    text-shadow:0 0 12px rgba(163, 193, 173, 0.25);
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select{
+    background-color:#121614;
+    border:1px solid #2b3833;
+    color:#c2d0c8;
+    padding:10px 14px;
+    border-radius:5px;
+    outline:none;
+    transition:border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color:#a3c1ad;
+    box-shadow:0 0 0 3px rgba(163, 193, 173, 0.15);
+}
+
+a:focus-visible,
+button:focus-visible{
+    outline:2px solid #a3c1ad;
+    outline-offset:3px;
+    border-radius:3px;
+}
+
+.mint-divider{
+height:2px;
+background:linear-gradient(90deg,#a3c1ad 0%,#2b3833 100%);
+border:none;
+margin:30px 0;
+border-radius:2px;
+}
